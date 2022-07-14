@@ -1,0 +1,55 @@
+.box {
+    background-color: blue;
+    width: 400px;
+    height: 400px;
+    display: block;
+    align-items: center;
+    margin: auto;
+    margin-top: 50px;
+}
+
+.container {
+    text-align: center;
+}
+
+.bar {
+    background-color: blue;
+    margin-top: 50px;
+    height: 80px;
+    width: 400px;
+}
+
+.btn {
+    height: 70px;
+    width: 90px;
+    cursor: pointer;
+    margin-left: 2px;
+}
+
+.btn1 {
+    height: 70px;
+    width: 90px;
+    cursor: pointer;
+    color: red;
+}
+
+.btn1:hover {
+    background-color: lightskyblue;
+}
+
+.btn:hover {
+    background-color: lightskyblue;
+}
+
+.keys {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+input[type="text"] {
+    height: 80px;
+    width: 380px;
+    margin-bottom: 2px;
+}
